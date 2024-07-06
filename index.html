@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <header>
+            <div> <img class="logo" src="./assets/logo.jpg" alt="Logo do bandeirantes já"></div>
+            <input type="checkbox" id="nav_check" hidden>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./index.html" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="#quemsomos">Quem Somos?</a>
+                    </li>
+                    <li>
+                        <a href="#timeline">Timeline</a>
+                    </li>
+                    <li>
+                        <a href="#depoimentos">Depoimentos</a>
+                    </li>
+                    <li>
+                        <a href="#parceiros">Parceiros</a>
+                    </li>
+                </ul>
+            </nav>
+            <label for="nav_check" class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </label>
+        </header>
+        <a href="#"><button class="doacao">DOE AQUI</button></a>
+    </header>
+
+    <section class="slide-inicio">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./assets/slide/foto1.png" class="image"></div>
+                <div class="swiper-slide"><img src="./assets/slide/foto2.jpeg" class="image"></div>
+                <div class="swiper-slide"><img src="./assets/slide/foto3.jpeg" class="image"></div>
+                <div class="swiper-slide"><img src="./assets/slide/foto4.jpeg" class="image"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+    <section class="quem-somos" id="quemsomos">
+        <div class="container-quem-somos">
+            <div class="row">
+                <h1>QUEM SOMOS?</h1>
+                <p>Com foco de levar sustentabilidade e qualidade vida para as famílias da comunidade Bandeirantes,
+                    localizada na zona oeste da cidade do Rio de Janeiro, a Rede Sociocultural Bandeirantes Já realiza
+                    desde 2009 projetos e ações em educação e reforço escolar, acessibilidade digital,
+                    profissionalização e empreendedorismo, apoio psicológico e jurídico.</p>
+
+            </div>
+            <img src="./assets/logo.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="compromisso">
+
+    </section>
+
+
+    <section class="acoes-destaque">
+        <div id="container">
+            <div class="tab-buttons">
+                <button class="tab-btn active" content-id="home">
+                    Brinquedoteca
+                </button>
+
+                <button class="tab-btn" content-id="services">
+                    Doação de Alimentos
+                </button>
+
+                <button class="tab-btn" content-id="contacts">
+                    Visita de Estrangeiro
+                </button>
+
+                <button class="tab-btn" content-id="location">
+                    Passeios Culturais
+                </button>
+
+            </div>
+
+            <div class="tab-contents">
+                <div class="content" id="home">
+                    <img src="./assets/logo.jpg" class="content-img" alt="home image">
+
+                    <div class="infos">
+                        <h1 class="content-title">
+                            Brinquedoteca
+                        </h1>
+
+                        <p class="content-description">
+                            Há mais de uma década, a instituição
+                            Bandeirantes Já promove a brinquedoteca como
+                            um espaço lúdico e educativo, proporcionando
+                            às crianças experiências enriquecedoras de
+                            aprendizado por meio do brincar. Essa iniciativa
+                            visa estimular o desenvolvimento cognitivo e
+                            emocional dos pequenos, contribuindo para um
+                            ambiente acolhedor e educativo.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content" id="services">
+                    <img src="./assets/logo.jpg" class="content-img" alt="services image">
+
+                    <div class="infos">
+                        <h1 class="content-title">
+                            Doação de Alimentos
+                        </h1>
+
+                        <p class="content-description">
+                            Com um compromisso contínuo com a
+                            comunidade, a Bandeirantes Já realiza há mais
+                            de 10 anos campanhas regulares de doação de
+                            alimentos. Essa prática solidária visa auxiliar
+                            aqueles em situação de vulnerabilidade,
+                            contribuindo para a segurança alimentar local
+                            e fortalecendo os vínculos com a comunidade.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content" id="contacts">
+                    <img src="./assets/logo.jpg" class="content-img" alt="contacts image">
+
+                    <div class="infos">
+                        <h1 class="content-title">
+                            Visita de Estrangeiro
+                        </h1>
+
+                        <p class="content-description">
+                            Ao longo de mais de 10 anos, a Bandeirantes Já
+                            tem recebido visitantes estrangeiros para
+                            compartilhar experiências e conhecimentos.
+                            Essas visitas fortalecem laços culturais e
+                            propiciam trocas enriquecedoras, ampliando a
+                            perspectiva tanto dos visitantes quanto dos
+                            membros da instituição.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content" id="location">
+                    <img src="./assets/logo.jpg" class="content-img" alt="location image">
+
+                    <div class="infos">
+                        <h1 class="content-title">
+                            Passeios Culturais
+                        </h1>
+
+                        <p class="content-description">
+                            A instituição Bandeirantes Já tem promovido
+                            passeios culturais há mais de uma década,
+                            oferecendo oportunidades de enriquecimento
+                            cultural e social para seus membros. Essas
+                            atividades proporcionam vivências únicas,
+                            ampliando horizontes e incentivando o acesso
+                            à diversidade cultural e artística.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="timeline" id="timeline">
+        <div class="info">
+            <img width="50" height="50" src="https://assets.codepen.io/210284/face.svg" alt="" />
+            <h2>História da ONG</h2>
+            <p>Conheça a nossa história através dos anos </p>
+        </div>
+        <ol>
+            <li>
+                <div>
+                    <time>2009 - Da ideia</time> Em setembro deste ano surge a ideia de uma rede social de
+                    empreendedores comunitários enquanto a Débora Vieira em um curso de empreendedorismo passa por uma
+                    atividade.
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>2009 - Mão na massa</time> Ainda em dezembro daquele mesmo ano, um grupo de empreendedores
+                    locais se organiza e promove um evento na praça da comuinidade, sendo assim a inauguração do
+                    projeto.
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>2010 - Os Primeiros frutos</time> Ao longo deste ano varias parcerias foram se concretizando e
+                    dando fruto a novas atividades e ações na comunidade.
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>2010 - Ação </time> Em meados deste ano, uma enchente atingiu a comunidade vizinha, chamada
+                    Coroado e a Bandeirantes Já! realizou uma série de ações humanitárias em prol das pessoas afetadas
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>2011 - Continuidade</time> São continuadas as atividades socioculturais e socioeducativas em
+                    parceria com a Escola SESC em nosso espaço.
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>2012 - Novidades</time> São inauguradas as aulas de educação popular com a equipe de 11 jovens
+                    educadores comunitários.
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>2012 - Monitoria</time> É iniciado o projeto de treinamento e desenvolvimento dos jovens
+                    monitores do projeto com cursos de oratória, teatro entre outros.
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>2013 - Parceria PUC-RJ</time> Inicia-se a parceria com a PUC-RJ para a formação de educadores
+                    comunitários através do NAPC.
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>2013 - Buffet Delícias Já!</time> Ainda em 2013 surge o Buffet Delícias Já, projeto onde
+                    atenderam mais de 800 peruanos durante a jornada mundial da juventude.
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>2017 - Parceria FioCruz</time> A parceria com a FioCruz Mata Atlântica possibilitou que
+                    coordenadores e diretores fizessem cursos.
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>2020 - Novo Corona Virus </time> A pandemia do novo Corona Virus atingiu o Brasil e nós
+                    conseguimos auxiliar mais de 200 familias com kit de higiene durante 5 meses.
+                </div>
+            </li>
+            <li>
+                <div>
+                    <time>2020 ~ Agora</time>
+                </div>
+            </li>
+            <li>
+            </li>
+        </ol>
+    </section>
+
+
+    <section class="container-depoimentos" id="depoimentos">
+        <div class="depoimentos mySwiper">
+            <div class="depoimentos-content swiper-wrapper">
+                <div class="slide swiper-slide">
+                    <img src="./assets/logo.jpg" class="image">
+                    <p>"Desde os meus 9 anos, minha jornada na Instituição Bandeirantes tem sido incrivelmente
+                        enriquecedora. Através dela, tive acesso a diversos cursos técnicos, à faculdade da PUC e até
+                        mesmo
+                        a experiências internacionais. Hoje, como diretora de comunicação da instituição e profissional
+                        na
+                        área de beleza, compartilho meu conhecimento através de cursos e workshops, valorizando a
+                        liderança e o empreendedorismo que aprendi. Cada desafio superado foi um passo importante para
+                        o meu sucesso atual, e estou feliz por ter explorado novas áreas ao longo do caminho."</p>
+
+                    <i class='bx bxs-quote-alt-left quote-icon'></i>
+
+                    <div class="detalhes">
+                        <span class="name"> Berenice</span>
+                        <span class="job">colocar função</span>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <img src="./assets/logo.jpg" class="image">
+                    <p>“Sou líder e coordenador da instituição Bandeirantes Já. Local onde superei a timidez e
+                        desenvolvi habilidades que são úteis no mercado de trabalho, e é com muito esforço e
+                        treinamento da equipe Bandeirantes Já que nós jovens temos muitas oportunidades, hoje
+                        em dia eu trabalho como jovem aprendiz em uma das melhores universidades do país e faço
+                        um curso profissionalizante na área da cerâmica”.</p>
+                    <i class='bx bxs-quote-alt-left quote-icon'></i>
+
+                    <div class="detalhes">
+                        <span class="name"> Guilherme</span>
+                        <span class="job">colocar função</span>
+                    </div>
+                </div>
+                <div class=" slide swiper-slide">
+                    <img src="./assets/logo.jpg" class="image">
+                    <p>"Sou o Gabriel, 18 anos, na instituição desde a infância. Meu interesse em ser monitor foi
+                        inspirado ao
+                        ver minhas irmãs participarem de atividades em diversos lugares. Após esperar pacientemente pela
+                        idade certa, conversei com a Débora, nossa Diretora-presidente, sobre essa oportunidade. Agora,
+                        como
+                        coordenador e líder do setor de Gestão Interna, estou comprometido em contribuir ainda mais para
+                        o
+                        crescimento e sucesso da instituição!"</p>
+                    <i class='bx bxs-quote-alt-left quote-icon'></i>
+
+                    <div class="detalhes">
+                        <span class="name"> Gabriel</span>
+                        <span class="job">colocar função</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="container-patrocinios" id="parceiros">
+        <h1>PARCEIROS</h1>
+        <div class="logos">
+            <div class="logos-slide">
+                <img src="./assets/parceiros/Hoken_Filtros_1040-removebg-preview.png" />
+                <img src="./assets/parceiros/PUC-RIO-removebg-preview.png" />
+                <img src="./assets/parceiros/Logo_da_Escola_Sesc_de_Ensino_Médio-removebg.png" />
+                <img src="./assets/parceiros/consulado_da_belgica-removebg-preview.png" />
+                <img src="./assets/parceiros/Universidad_del_Tolima_Logo_forma_2.png" />
+                <img src="./assets/parceiros/Logo_vertical_letra_azul-removebg-preview.png" />
+                <img src="./assets/parceiros/Cultura-Urbana-removebg-preview.png" />
+                <img src="./assets/parceiros/c00d30_dad077ebe30742c9b0dbca08c3904d43~mv2.png" />
+               
+            </div>
+        
+            <div class="logos-slide">
+                <img src="./assets/parceiros/Hoken_Filtros_1040-removebg-preview.png" />
+                <img src="./assets/parceiros/PUC-RIO-removebg-preview.png" />
+                <img src="./assets/parceiros/Logo_da_Escola_Sesc_de_Ensino_Médio-removebg.png" />
+                <img src="./assets/parceiros/consulado_da_belgica-removebg-preview.png" />
+                <img src="./assets/parceiros/Universidad_del_Tolima_Logo_forma_2.png" />
+                <img src="./assets/parceiros/Logo_vertical_letra_azul-removebg-preview.png" />
+                <img src="./assets/parceiros/Cultura-Urbana-removebg-preview.png" />
+                <img src="./assets/parceiros/c00d30_dad077ebe30742c9b0dbca08c3904d43~mv2.png" />
+             
+            </div>
+    </div>
+</section>
+
+
+
+    <footer class="footer">
+        <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100"
+            preserveAspectRatio="none">
+            <path class="footer-wave-path"
+                d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z">
+            </path>
+        </svg>
+        <div class="footer-content">
+            <div class="footer-content-column">
+                <div class="footer-logo">
+                    <a class="footer-logo-link" href="#">
+                        <span class="hidden-link-text">LOGO</span>
+                        <img src="./assets/logo.jpg" width="180px">
+                    </a>
+                </div>
+                <div class="footer-menu">
+                    <h2 class="footer-menu-name"> Home</h2>
+                    <ul id="menu-get-started" class="footer-menu-list">
+                        <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                            <a href="./index.html">Inicio</a>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                            <a href="#quemsomos">Quem Somos?</a>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                            <a href="#timeline">Timeline</a>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                            <a href="#depoimentos">Depoimentos</a>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                            <a href="#parceiros">Parceiros</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-content-column">
+                <div class="footer-menu">
+                    <h2 class="footer-menu-name"></h2>
+                    <ul id="menu-company" class="footer-menu-list">
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                            <a href="#"><img src="./assets/noticias/4969143-removebg-preview.png" width="50%"></a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+                            <a href="#"><img src="./assets/noticias/foto-11-removebg-preview.png" width="50%"></a>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                            <a href="#"><img src="./assets/noticias/2022.08.10-21.26.26-0.png" width="50%"></a>
+                        </li>
+                    </ul>
+                </div>
+               
+            </div>
+            <div class="footer-content-column">
+                <div class="footer-menu">
+                    <h2 class="footer-menu-name"> Notícias</h2>
+                    <ul id="menu-quick-links" class="footer-menu-list">
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                            <a href="https://www.anf.org.br/comunidade-abraca-imigrantes-na-cesar-maia/"><img src="./assets/noticias/logo-anf-300x296.png" width="40%"></a> 
+                        </li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                            <a   href="https://rioonwatch.org.br/?p=21599"><img src="./assets/noticias/row_logo_2022-1668014787.png " width="50%" alt=""></a>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                            <a href="https://br.ulule.com/projet-bandeirantes-ja/"><img src="./assets/noticias/png-transparent-ulule-logo-crowdfunding-platforms-logos-removebg-preview.png" width="50%"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-content-column">
+                <div class="footer-call-to-action">
+                    <h2 class="footer-call-to-action-title"> Quer Fazer uma Doação ? </h2>
+                    <p class="footer-call-to-action-description"> Ou ser parceiro do nosso projeto ? </p>
+                    <a class="footer-call-to-action-button button" href="#" target="_self"> Doe Aqui </a>
+                </div>
+                <div class="footer-call-to-action">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d633.0469453121842!2d-43.43295613920252!3d-22.98932245250549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdd4395bb22f9%3A0x9a11722d45a4280b!2zSW5zdGl0dWnDp8OjbyBCYW5kZWlyYW50ZXMgSsOh!5e0!3m2!1spt-BR!2sbr!4v1712093339042!5m2!1spt-BR!2sbr"
+                        width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+
+
+        </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="footer-copyright-wrapper">
+                <p class="footer-copyright-text">
+                    <a class="footer-copyright-link" href="#" target="_self"> ©2024. | Desenvolvido por: William Souza
+                         | Todos os direitos reservados. </a>
+                </p>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="module" src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+</body>
+
+</html>
